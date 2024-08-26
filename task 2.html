@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            background-color: gray;
+            display: grid;
+            padding: 70px 20px 70px;
+            grid-template-columns: auto auto auto;
+            gap: 10px 10px;
+        }
+        div{
+            background-color: rgb(144, 87, 210);
+        }
+        .item1{
+            grid-column: 1/5;
+            text-align: center;
+            padding: 50px;
+        }
+        .item2{
+            grid-row: 2/5;
+            text-align: center;
+            padding: 50px;
+            background-color: lightblue;
+        }
+        .item3{
+            grid-column: 2/5;
+            text-align: center;
+            padding: 50px;
+        }
+        .item4{
+            grid-row: 3/5;
+            text-align: center;
+            padding: 50px;
+        }
+        .item5{
+            grid-row: 3/5;
+            text-align: center;
+            padding: 50px;
+        }
+        .item6{
+            grid-column:1/5;
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+<div class="container">
+    <div class="grid-item item1"> header</div>
+    <div class="grid-item item2"> slide bar</div>
+    <div class="grid-item item3"> content-1</div>
+    <div class="grid-item item4"> content-2</div>
+    <div class="grid-item item5"> content-3</div>
+    <div class="grid-item item6"> footer</div>
+    
+</body>
+</html>
